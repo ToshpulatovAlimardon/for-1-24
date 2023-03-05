@@ -5,8 +5,12 @@
 // }
 
 // For2
-// let a = 8, b = 14;
-// console.log(b - a + 1);
+// let a = 8, b = 14, k = 0;
+// for (let i = a; i <= b; i++) {
+//     k += 1;
+//     console.log(i);
+// }
+// console.log(`${k} ta son bor`);
 
 // For3
 // let a = 7, b = 13;
@@ -68,8 +72,10 @@
 // console.log(s);
 
 // For12
-let n = 1.3, s = 1;
-for (let i = 1; i <= n; i++) {
-    s *= (i + 0.1);
-}
-console.log(s);
+// let n = 1.3, s = 1;
+// for (let i = 1; i <= (n * 10) % 10; i++) {
+//     s *= (1 + i / 10);
+// }
+// console.log(s);
+
+// For13
