@@ -79,3 +79,91 @@
 // console.log(s);
 
 // For13
+// let n = 4,
+//     s = 0;
+
+// for (let i = 1; i <= n; i++) {
+//     s += Math.pow(-1, i + 1) * (1 + i / 10);
+// }
+// console.log(s);
+
+// For14
+// let n = 3, s = 0;
+// for (let i = 1; i <= n; i++) {
+//     s += (2 * i - 1);
+// }
+// console.log(s);
+
+// For15
+// let n = 4, a = 2, s = 1;
+// for (let i = 1; i <= n; i++) {
+//     s *= a;
+// }
+// console.log(s);
+
+// For16
+// let n = 4, a = 2;
+// for (let i = 0; i <= n; i++) {
+//     console.log(a ** i);
+// }
+
+// For17
+// let n = 3, a = 2, s = 0;
+// for (let i = 0; i <= n; i++) {
+//     s += a ** i;
+// }
+// console.log(s);
+
+// For18
+// let n = 3, a = 2, s = 0;
+// for (let i = 0; i <= n; i++) {
+//     s += ((-1) ** i) * a ** i;
+// }
+// console.log(s);
+
+// For19
+// let n = 3, s = 1;
+// for (let i = 1; i <= n; i++) {
+//     s *= i;
+// }
+// console.log(s);
+
+// For20
+// let n = 4, s = 0, k = 1;
+// for (let i = 1; i <= n; i++) {
+//     k *= i;
+//     s += k;
+// }
+// console.log(s);
+
+// For21
+// let n = 4, s = 0, k = 1;
+// for (let i = 1; i <= n; i++) {
+//     k *= i;
+//     s += 1 / k;
+// }
+// console.log(s + 1);
+
+// For22
+// let n = 3, s = 0, k = 1, x = 2;
+// for (let i = 1; i <= n; i++) {
+//     k *= i;
+//     s += x ** i / k;
+// }
+// console.log(s + 1);
+
+// For23
+// let n = 3, s = 0, k = 1, x = 2;
+// for (let i = 1; i <= n; i++) {
+//     k *= 2 * i + 1;
+//     s += ((-1) ** i) * x ** (2 * i + 1) / k;
+// }
+// console.log(s + 1);
+
+// For24
+let n = 3, s = 0, k = 1, x = 2;
+for (let i = 1; i <= n; i++) {
+    k *= 2 * i + 1;
+    s += ((-1) ** i) * x ** (2 * i + 1) / k;
+}
+console.log(s + 1);
