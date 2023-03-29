@@ -161,9 +161,9 @@
 // console.log(s + 1);
 
 // For24
-let n = 3, s = 0, k = 1, x = 2;
-for (let i = 1; i <= n; i++) {
-    k *= 2 * i + 1;
-    s += ((-1) ** i) * x ** (2 * i + 1) / k;
-}
-console.log(s + 1);
+// let n = 3, s = 0, k = 1, x = 2;
+// for (let i = 1; i <= n; i++) {
+//     k *= 2 * i + 1;
+//     s += ((-1) ** i) * x ** (2 * i + 1) / k;
+// }
+// console.log(s + 1);
